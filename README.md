@@ -12,13 +12,13 @@ Our project helps to find the current, longest and average waiting time for cust
 4.	Time for running the experiment: Determined initially by the programmer
 
 ## Computation Procedure
-•	First of all, we generate or initialize the parameters.
-•	Next, we make a queue of the customers and enqueue them as they are generated.
-•	We also assign customers to respective counters based on the least waiting time of the counter. 
-•	While assigning the customers to their respective counters, we calculate their waiting time based on the service time of the customers ahead.
-•	We check if the longest waiting time is smaller than the current waiting time. If it is, we assign the current waiting time as the longest waiting time.
-•	We then deque the customers as soon as their turn has completed.
-•	Based on the results we obtain for 5 units of time, we generated graphs according to the simulation results.
+*	First of all, we generate or initialize the parameters.
+*	Next, we make a queue of the customers and enqueue them as they are generated.
+*	We also assign customers to respective counters based on the least waiting time of the counter. 
+*	While assigning the customers to their respective counters, we calculate their waiting time based on the service time of the customers ahead.
+*	We check if the longest waiting time is smaller than the current waiting time. If it is, we assign the current waiting time as the longest waiting time.
+*	We then deque the customers as soon as their turn has completed.
+*	Based on the results we obtain for 5 units of time, we generated graphs according to the simulation results.
 
 ## What would be the output?
 We will get the following outputs at the end of the experiment:
